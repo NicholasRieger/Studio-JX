@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio JX</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/output.css" />
+  </head>
+  <body class="bg-white">
+    <header class="bg-[#e2cdde] px-6 py-6">
+      <div class="mx-auto flex max-w-6xl items-center justify-between gap-8">
+        <div class="flex flex-col">
+          <img
+            src="./assets/Header/logo.png"
+            alt="Logo Studio Júlia Xavier"
+            class="h-auto w-full max-w-90 object-contain md:max-w-100"
+          />
+        </div>
+
+        <button
+          id="menu-btn"
+          class="flex flex-col gap-1 md:hidden"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <span class="block h-0.5 w-6 bg-[#737285]"></span>
+          <span class="block h-0.5 w-6 bg-[#737285]"></span>
+          <span class="block h-0.5 w-6 bg-[#737285]"></span>
+        </button>
+
+        <nav class="hidden md:block">
+          <ul class="flex gap-4 text-[13px] text-[#737285] md:text-lg lg:gap-12">
+            <li><a href="#" class="menu-link">Início</a></li>
+            <li><a href="#" class="menu-link">Procedimentos</a></li>
+            <li><a href="#" class="menu-link">Pacotes</a></li>
+            <li><a href="#" class="menu-link">Sobre</a></li>
+            <li><a href="#" class="menu-link">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <nav id="mobile-menu" class="mt-4 hidden md:hidden">
+        <ul class="flex flex-col gap-3 text-base text-[#737285]">
+          <li>
+            <a href="#" class="block border-b border-[#737285]/20 pb-2"
+              >Início</a
+            >
+          </li>
+          <li>
+            <a href="#" class="block border-b border-[#737285]/20 pb-2"
+              >Procedimentos</a
+            >
+          </li>
+          <li>
+            <a href="#" class="block border-b border-[#737285]/20 pb-2"
+              >Pacotes</a
+            >
+          </li>
+          <li>
+            <a href="#" class="block border-b border-[#737285]/20 pb-2"
+              >Sobre</a
+            >
+          </li>
+          <li><a href="#" class="block pb-2">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-content">
+            <h1 class="hero-title">Cuidado e beleza no mesmo lugar</h1>
+
+            <p class="hero-text">
+              Um espaço pensado para valorizar sua beleza com cuidado, leveza e
+              atendimento personalizado.
+            </p>
+
+            <a href="https://wa.me/SEUNUMEROAQUI" class="hero-button">
+              Agende pelo WhatsApp
+            </a>
+          </div>
+
+          <div class="hero-image-wrapper">
+            <img
+              src="./assets/Header/Julia-Hero.jpeg"
+              alt="Atendimento estético Studio Júlia Xavier"
+              class="hero-image contrast-80"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--Procedimentos-->
+
+      <section class="bg-[#e2cdde] text-[#737285] text-center py-4 pb-8">
+        <h2 class="text-4xl">Especialidades</h2>
+        <p class="mt-1">Tratamentos e técnicas para realçar sua beleza natural</p>
+        <div class="flex mx-auto mt-6 max-w-6xl justify-center gap-16 flex-wrap md:flex-nowrap">
+          <div class="bg-[#f5f5f5] w-[270px] text-center p-7 rounded-2xl">
+            <img
+              src="./assets/Especialidades/Sobrancelhas.png"
+              alt="Procedimentos estéticos Studio Júlia Xavier"
+              class="mx-auto max-w-40 rounded-lg object-cover"
+            />
+            <p class="mt-4 text-2xl font-medium">Sobrancelhas</p>
+            <p class="mt-2 mb-1 text-[13px]">Define o olhar, valoriza seus traços e deixa a expressão mais harmônica e elegante.</p>
+          </div>
+          <div class="bg-[#f5f5f5] w-[270px] text-center p-7 rounded-2xl">
+            <img
+              src="./assets/Especialidades/Cilios_Labios.png"
+              alt="Procedimentos estéticos Studio Júlia Xavier"
+              class="mx-auto max-w-40 rounded-lg object-cover"
+            />
+            <p class="mt-4 text-2xl font-medium">Cílios e Lábios</p>
+            <p class="mt-2 mb-1 text-[13px]">Transforme seus olhos e lábios com tratamentos especializados para realçar sua beleza natural.</p>
+          </div>
+          <div class="bg-[#f5f5f5] w-[270px] text-center p-7 rounded-2xl">
+            <img
+              src="./assets/Especialidades/Facial.png"
+              alt="Procedimentos estéticos Studio Júlia Xavier"
+              class="mx-auto max-w-40 rounded-lg object-cover"
+            />
+            <p class="mt-4 text-2xl font-medium">Facial</p>
+            <p class="mt-2 mb-1 text-[13px]">Tratamentos especializados para realçar sua beleza natural.</p>
+          </div>
+          <div class="bg-[#f5f5f5] w-[270px] text-center p-7 rounded-2xl">
+            <img
+              src="./assets/Especialidades/Corporal.png"
+              alt="Procedimentos estéticos Studio Júlia Xavier"
+              class="mx-auto max-w-40 rounded-lg object-cover"
+            />
+            <p class="mt-4 text-2xl font-medium">Corporal</p>
+            <p class="mt-2 mb-1 text-[13px]">Tratamentos especializados para realçar sua beleza natural.</p>
+          </div>
+          
+        </div>
+        
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
