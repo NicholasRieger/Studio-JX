@@ -38,7 +38,9 @@
         </button>
 
         <nav class="hidden md:block">
-          <ul class="flex gap-4 text-[13px] text-[#737285] md:text-lg lg:gap-12">
+          <ul
+            class="flex gap-4 text-[13px] text-[#737285] md:text-lg lg:gap-12"
+          >
             <li><a href="#" class="menu-link">Início</a></li>
             <li><a href="#" class="menu-link">Procedimentos</a></li>
             <li><a href="#" class="menu-link">Pacotes</a></li>
@@ -101,54 +103,407 @@
         </div>
       </section>
 
-      <!--Procedimentos-->
-
-      <section class="bg-[#e2cdde] text-[#737285] text-center py-4 pb-8">
+      <!-- Procedimentos -->
+      <section class="bg-[#e2cdde] py-4 pb-8 text-center text-[#737285]">
         <h2 class="text-4xl">Especialidades</h2>
-        <p class="mt-1">Tratamentos e técnicas para realçar sua beleza natural</p>
-        <div class="flex mx-auto mt-6 max-w-6xl justify-center gap-16 flex-wrap md:flex-nowrap">
-          <div class="bg-[#f5f5f5] w-[270px] text-center p-7 rounded-2xl">
+        <p class="mt-1">
+          Tratamentos e técnicas para realçar sua beleza natural
+        </p>
+
+        <div
+          class="mx-auto mt-6 grid max-w-6xl grid-cols-2 gap-4 px-4 md:grid-cols-4 md:gap-8 md:px-0"
+        >
+          <div class="rounded-2xl bg-[#f5f5f5] p-5 text-center md:p-7">
             <img
               src="./assets/Especialidades/Sobrancelhas.png"
               alt="Procedimentos estéticos Studio Júlia Xavier"
-              class="mx-auto max-w-40 rounded-lg object-cover"
+              class="mx-auto max-w-32 rounded-lg object-cover md:max-w-40"
             />
-            <p class="mt-4 text-2xl font-medium">Sobrancelhas</p>
-            <p class="mt-2 mb-1 text-[13px]">Define o olhar, valoriza seus traços e deixa a expressão mais harmônica e elegante.</p>
+            <p class="mt-4 text-lg font-medium md:text-2xl">Sobrancelhas</p>
+            <p class="mt-2 mb-1 text-[12px] md:text-[13px]">
+              Define o olhar, valoriza seus traços e deixa a expressão mais
+              harmônica e elegante.
+            </p>
           </div>
-          <div class="bg-[#f5f5f5] w-[270px] text-center p-7 rounded-2xl">
+
+          <div class="rounded-2xl bg-[#f5f5f5] p-5 text-center md:p-7">
             <img
               src="./assets/Especialidades/Cilios_Labios.png"
               alt="Procedimentos estéticos Studio Júlia Xavier"
-              class="mx-auto max-w-40 rounded-lg object-cover"
+              class="mx-auto max-w-32 rounded-lg object-cover md:max-w-40"
             />
-            <p class="mt-4 text-2xl font-medium">Cílios e Lábios</p>
-            <p class="mt-2 mb-1 text-[13px]">Transforme seus olhos e lábios com tratamentos especializados para realçar sua beleza natural.</p>
+            <p class="mt-4 text-lg font-medium md:text-2xl">Cílios e Lábios</p>
+            <p class="mt-2 mb-1 text-[12px] md:text-[13px]">
+              Transforme seus olhos e lábios com tratamentos especializados para
+              realçar sua beleza natural.
+            </p>
           </div>
-          <div class="bg-[#f5f5f5] w-[270px] text-center p-7 rounded-2xl">
+
+          <div class="rounded-2xl bg-[#f5f5f5] p-5 text-center md:p-7">
             <img
               src="./assets/Especialidades/Facial.png"
               alt="Procedimentos estéticos Studio Júlia Xavier"
-              class="mx-auto max-w-40 rounded-lg object-cover"
+              class="mx-auto max-w-32 rounded-lg object-cover md:max-w-40"
             />
-            <p class="mt-4 text-2xl font-medium">Facial</p>
-            <p class="mt-2 mb-1 text-[13px]">Tratamentos especializados para realçar sua beleza natural.</p>
+            <p class="mt-4 text-lg font-medium md:text-2xl">Facial</p>
+            <p class="mt-2 mb-1 text-[12px] md:text-[13px]">
+              Tratamentos especializados para realçar sua beleza natural.
+            </p>
           </div>
-          <div class="bg-[#f5f5f5] w-[270px] text-center p-7 rounded-2xl">
+
+          <div class="rounded-2xl bg-[#f5f5f5] p-5 text-center md:p-7">
             <img
               src="./assets/Especialidades/Corporal.png"
               alt="Procedimentos estéticos Studio Júlia Xavier"
-              class="mx-auto max-w-40 rounded-lg object-cover"
+              class="mx-auto max-w-32 rounded-lg object-cover md:max-w-40"
             />
-            <p class="mt-4 text-2xl font-medium">Corporal</p>
-            <p class="mt-2 mb-1 text-[13px]">Tratamentos especializados para realçar sua beleza natural.</p>
+            <p class="mt-4 text-lg font-medium md:text-2xl">Corporal</p>
+            <p class="mt-2 mb-1 text-[12px] md:text-[13px]">
+              Tratamentos especializados para realçar sua beleza natural.
+            </p>
           </div>
-          
         </div>
-        
+      </section>
+
+      <!-- Pacotes -->
+      <section class="bg-[#F5F5F5] px-4 py-4 text-center text-[#737285]">
+        <h2 class="text-4xl">Pacotes</h2>
+        <p class="mt-2 text-sm md:text-base">
+          Combinações especiais para quem quer cuidar de si com ainda mais
+          vantagens.
+        </p>
+
+        <div
+          class="mx-auto mt-8 flex max-w-6xl flex-wrap justify-center gap-6 md:gap-14"
+        >
+          <!-- Pacote Básico -->
+          <div
+            class="flex w-[290px] flex-col overflow-hidden rounded-2xl bg-[#f5f5f5] shadow-sm"
+          >
+            <div class="bg-[#d9c7d7] px-6 py-5">
+              <p class="text-lg font-semibold">Pacote Básico</p>
+            </div>
+
+            <div class="hidden flex-1 flex-col px-6 py-4 text-left md:flex">
+              <ul class="flex-1 space-y-4 text-sm">
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Limpeza de pele
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Peeling diamante
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Microagulhamento
+                </li>
+              </ul>
+
+              <a
+                href="#"
+                class="mt-auto inline-block w-full rounded-full bg-[#737285] px-5 py-3 text-center text-sm font-medium text-white transition hover:opacity-90"
+              >
+                Quero esse pacote
+              </a>
+            </div>
+          </div>
+
+          <!-- Pacote Intermediário -->
+          <div
+            class="relative mt-3 flex w-[290px] flex-col overflow-visible rounded-2xl bg-[#f5f5f5] shadow-md md:mt-0"
+          >
+            <div
+              class="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ae92b0] px-4 py-1"
+            >
+              <p
+                class="text-[10px] font-bold uppercase tracking-[0.18em] text-white"
+              >
+                Mais escolhido
+              </p>
+            </div>
+
+            <div
+              class="rounded-2xl bg-[#ae92b0] px-6 py-5 text-white md:rounded-b-none"
+            >
+              <p class="text-lg font-semibold">Pacote Intermediário</p>
+            </div>
+
+            <div class="hidden flex-1 flex-col px-6 py-4 text-left md:flex">
+              <ul class="flex-1 space-y-4 text-sm">
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Limpeza de pele
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Peeling diamante
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Microagulhamento
+                </li>
+
+                <p class="font-bold">Após 30 dias:</p>
+
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-7"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Peeling diamante/Revitalização facial
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Microagulhamento
+                </li>
+              </ul>
+
+              <a
+                href="#"
+                class="mt-auto inline-block w-full rounded-full bg-[#737285] px-5 py-3 text-center text-sm font-medium text-white transition hover:opacity-90"
+              >
+                Quero esse pacote
+              </a>
+            </div>
+          </div>
+
+          <!-- Pacote Avançado -->
+          <div
+            class="flex w-[290px] flex-col overflow-hidden rounded-2xl bg-[#f5f5f5] shadow-sm"
+          >
+            <div class="bg-[#d9c7d7] px-6 py-5">
+              <p class="text-lg font-semibold">Pacote Avançado</p>
+            </div>
+
+            <div class="hidden flex-1 flex-col px-6 py-4 text-left md:flex">
+              <ul class="flex-1 space-y-4 text-sm mb-4">
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Limpeza de pele
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Peeling diamante
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Microagulhamento
+                </li>
+
+                <p class="font-bold">Após 30 dias:</p>
+
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-7"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Peeling diamante/Revitalização facial
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Microagulhamento
+                </li>
+                <p class="font-bold">Após 1 semana:</p>
+                <li class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  Peeling diamante
+                </li>
+              </ul>
+
+              <a
+                href="#"
+                class="mt-auto inline-block w-full rounded-full bg-[#737285] px-5 py-3 text-center text-sm font-medium text-white transition hover:opacity-90"
+              >
+                Quero esse pacote
+              </a>
+            </div>
+          </div>
+
+        <p class="mt-4 text-xs">*Consulte condições e formas de pagamento.</p>
       </section>
     </main>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
   </body>
 </html>
