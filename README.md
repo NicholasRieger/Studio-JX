@@ -1,7 +1,5 @@
 README.md
 
-Pode colar isso no README.md:
-
 # Studio JX
 
 Landing page desenvolvida para um estúdio de estética, com foco em apresentação visual, organização dos serviços, clareza das informações e contato facilitado pelo WhatsApp.
