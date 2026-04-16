@@ -6,6 +6,8 @@ Preto - #000000
 Rosa - #e2cdde
 Cinza - #737285 */
 
+:root {color-scheme: only light;}
+
 body {
   margin: 0;
   padding: 0;
