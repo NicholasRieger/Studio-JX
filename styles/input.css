@@ -142,7 +142,7 @@ h6 {
     object-position: center;
     border-radius: 1.5rem 0 0 1.5rem;
     -webkit-mask-image: linear-gradient(
-      to left,
+      to right,
       transparent 0%,
       rgba(0, 0, 0, 0.12) 5%,
       rgba(0, 0, 0, 0.38) 18%,
@@ -150,7 +150,7 @@ h6 {
       black 48%
     );
     mask-image: linear-gradient(
-      to left,
+      to right,
       transparent 0%,
       rgba(0, 0, 0, 0.12) 5%,
       rgba(0, 0, 0, 0.38) 18%,
