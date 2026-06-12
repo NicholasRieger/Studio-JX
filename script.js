@@ -129,7 +129,7 @@ function isDesktopReviewCarousel() {
 
 function createReviewCard(review) {
   return `
-    <article class="flex min-h-[230px] flex-col justify-between overflow-hidden rounded-2xl bg-[#f5f5f5] p-6 text-left shadow-sm">
+    <article class="flex min-h-[230px] flex-col justify-between overflow-hidden rounded-2xl border-0 bg-[#f5f5f5] p-6 text-left shadow-none outline-none ring-0 md:shadow-sm">
       <p class="text-sm italic leading-6">"${review.text}"</p>
       <p class="mt-4 italic">- ${review.author}</p>
     </article>
@@ -148,7 +148,7 @@ function splitReviewsIntoSlides(items) {
 
 function createReviewSlide(slideReviews) {
   return `
-    <div class="min-w-full">
+    <div class="min-w-full px-1 py-1">
       <div class="grid gap-6 md:grid-cols-3 md:gap-14">
         ${slideReviews.map(createReviewCard).join("")}
       </div>
